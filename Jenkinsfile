@@ -1,10 +1,10 @@
 pipeline {
 
-    // agent {
-    //     node {
-    //         label 'main'
-    //     }
-    // }
+    agent {
+        node {
+            label 'main'
+        }
+    }
 
     agent any
 
